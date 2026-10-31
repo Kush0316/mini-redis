@@ -14,4 +14,5 @@ include_directories(include)
 # Tell CMake to compile src/main.cpp into an app named mini-redis-server
 add_executable(mini-redis-server
     src/main.cpp
+    src/kv_store.cpp
 )
