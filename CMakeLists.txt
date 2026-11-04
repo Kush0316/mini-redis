@@ -15,4 +15,5 @@ include_directories(include)
 add_executable(mini-redis-server
     src/main.cpp
     src/kv_store.cpp
+    src/tcp_server.cpp
 )
